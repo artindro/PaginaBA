@@ -11,7 +11,7 @@ body{
 
 
  header{
-    background-color: rgb(37, 26, 26);
+    background-color: rgb(52, 57, 63);
     display: flex;
     justify-content: space-between;
     min-height: 90px;
@@ -181,7 +181,7 @@ form h1{
     margin-bottom: 20px;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgb(75, 237, 75);
+    background-color: rgb(151, 200, 62);
     font-size: 40px;
     color: white;
     border-radius:white;
