@@ -62,12 +62,305 @@ nav a:hover{
 
 }
 
+.wrap{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content:right;
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb( 0 0 0 / .5)),url(/imag/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.wrap-texto{
+    color: white;
+    width: 50%;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+#boton1{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 7px 15px;
+    text-align: center;
+    border: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#botone{
+    background: none;
+    color: white;
+    border-radius: 10px;
+    padding: 7px 15px;
+    text-align: center;
+    border: 4px white;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(3, 3, 47);
+    overflow: hidden;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+ }
+ nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    justify-content: center;
+    text-align: center;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    font-family: 1.1 rem;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+ }
+ 
+ nav ul li a:hover{
+    background-color: white;
+    color: black;
+ }
+ nav ul{
+    margin-left: 100px;
+ }
+ 
+ @media only screen  and (max-width: 768px){
+    nav ul li{
+       display: block;
+       margin-right: 0;
+    }
+  nav ul lia a{
+    text-align: center;
+  }
+ }
 
+ form{
+    
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    
+}
+form h3{
+    text-align: center;
+    font-size: 30px;
+    
+}
+form h1{
+    text-align: center;
+    font-size: 50px;
+}
+    
 
+#boton{
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(75, 237, 75);
+    font-size: 40px;
+    color: white;
+    border-radius:white;
+    cursor: pointer;
+}
+form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    height: 50%;
+    font-size: 35px;
+}
+.contenedor-inputs{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+.input48{
 
+    width: 48%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    
+    
+}
+input{
+    
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 16px;
+}
+form .form-top{
+    text-align: center;
+    box-sizing: border-box;
 
+}
+ #loco{
+    color: rgba(0, 0, 0, 0.4);
+}
+form p{
+    font-size: 15px;
+}
 
+.container{
+    width: 100%;
+    height: auto;
+    display: flex
+    
+}
+.box{
+    background-color: gray;
+    width: 50%;
+    height:700px;
+    background-size: cover;
+    box-sizing: border-box;
+    font-size: 50px;
+    padding-left: 10px;
+
+}
+.box1{
+    background: url(/imag/honolulu.jpg);
+    width: 50%;
+    height: 700px;
+    box-sizing: border-box;
+    font-size: 50px;
+    background-size: cover;
+}
+.box h1{
+    font-size: 40px;
+    color: white;
+}
+.box p{
+    font-size:20px ;
+    color: white;
+}
+#boton6{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 7px 15px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border-color: white;
+    background: rgba(0, 0, 0, 0);
+    
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.card{
+    display: flex;
+    gap: 70px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.perfil{
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 8px;
+    border-radius: 8px;
+    box-shadow:  0 0 12px #d7d7d7;
+}
+.nombre img{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.titulo1{
+    
+    border: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.descripcion{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#boton2{
+   background-color: yellow;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 7px 15px;
+    text-align: center;
+    border: 2px white;
+    cursor: pointer;
+    color: black;
+}
+#boton3{
+    background-color:rgb(27, 120, 143);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 7px 15px;
+    text-align: center;
+    border: 2px white;
+
+    cursor: pointer;
+    color: white;
+    
+}
+#boton4{
+
+    background-color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 7px 15px;
+    text-align: center;
+    border: 2px white;
+    cursor: pointer;
+    color: white;
+}
+#boton5{
+    background-color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 7px 15px;
+    text-align: center;
+    border: 2px white;
+    cursor: pointer;
+    color: white;
+}
 
 @media (max-width:700px){
     header{
